@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <div className="footer-icon">
         <img src="./images/slack-icon.JPG" alt="slack" />
-        <img src="./images/icon.png" alt="github" />
+        <img src="./images/github.png" alt="github" />
       </div>
       <div className="footer-text">
         <div className="footer-text-logo">
