@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 700px;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #fff;
+
+  header {
+    margin: 3rem 0 1rem;
+
+    .header {
+      padding-top: 1rem;
+
+      text-align: center;
+      position: relative;
+
+      #profile__img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+      }
+
+      .btn,
+      .btn-share {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        top: 0;
+        right: 0;
+      }
+
+      .btn-share {
+        display: none;
+      }
+    }
+  }
+
+  .page-link {
+    button {
+      text-align: center;
+      width: 100%;
+      height: 80px;
+      background: #eaecf0;
+      border: 1px solid #eaecf0;
+      border-radius: 0.5rem;
+      color: #101828;
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 1rem 0;
+
+      &:hover {
+        color: #eaecf0;
+        background: #101828;
+        cursor: pointer;
+      }
+    }
+  }
+
+  footer {
+    width: 95%;
+    max-width: 750px;
+    margin: auto;
+
+    .footer-icon {
+      text-align: center;
+
+      img {
+        width: 30px;
+        height: 30px;
+        margin: 1rem 0.5rem 4rem;
+        cursor: pointer;
+      }
+    }
+
+    .footer-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      border-top: 1px solid #eaecf0;
+      padding-top: 1rem;
+
+      &-logo {
+        cursor: pointer;
+        .logo-container {
+          position: relative;
+          width: 180px;
+          height: 25px;
+
+          img {
+            width: 180px;
+            height: 25px;
+          }
+
+          .dot {
+            width: 8px;
+            height: 8px;
+            position: absolute;
+            bottom: 5px;
+            left: 50px;
+          }
+        }
+      }
+
+      p {
+        color: #667085;
+        cursor: pointer;
+      }
+
+      .ingressive {
+        cursor: pointer;
+        img {
+          width: auto;
+          height: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    header {
+      .header {
+        .btn {
+          display: none;
+        }
+
+        .btn-share {
+          display: block;
+        }
+      }
+    }
+
+    footer {
+      .footer-text {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+
+        .ingressive {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
