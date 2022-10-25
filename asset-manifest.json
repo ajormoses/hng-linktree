@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hng-linktree/static/css/main.035571d5.css",
+    "main.js": "/hng-linktree/static/js/main.3e75d7c4.js",
+    "static/js/787.55f350d7.chunk.js": "/hng-linktree/static/js/787.55f350d7.chunk.js",
+    "index.html": "/hng-linktree/index.html",
+    "main.035571d5.css.map": "/hng-linktree/static/css/main.035571d5.css.map",
+    "main.3e75d7c4.js.map": "/hng-linktree/static/js/main.3e75d7c4.js.map",
+    "787.55f350d7.chunk.js.map": "/hng-linktree/static/js/787.55f350d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.035571d5.css",
+    "static/js/main.3e75d7c4.js"
+  ]
+}
